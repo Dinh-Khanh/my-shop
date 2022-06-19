@@ -16,3 +16,10 @@ html {
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+#page-container {
+  background-color: #f0f2f5;
+}
+.page {
+  display: flex;
+  padding: 20px 40px;
+}

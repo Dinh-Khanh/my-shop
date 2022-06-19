@@ -1,0 +1,48 @@
+.page-sidebar {
+  width: 250px;
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    display: block;
+    padding: 10px 0;
+  }
+  .product-portfolio {
+    h4 {
+      text-transform: uppercase;
+    }
+    .page_sidebar-list {
+      padding: 14px 10px;
+    }
+  }
+  .connection-shop {
+    .page_sidebar-list {
+      padding: 14px 0;
+    }
+    a {
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+    .facebook-icon {
+      font-size: 32px;
+      min-width: 40px;
+      color: #475993;
+    }
+    .group-icon {
+      font-size: 25px;
+      min-width: 40px;
+      color: #3b5998;
+    }
+    .youtube-icon {
+      font-size: 30px;
+      min-width: 40px;
+      color: #f61c0d;
+    }
+  }
+  .other {
+    .page_sidebar-list {
+      padding: 14px 0;
+    }
+  }
+}

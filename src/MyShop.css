@@ -110,9 +110,6 @@ html {
   display: flex;
   padding: 20px 40px;
 }
-.page-main {
-  flex: 1;
-}
 .page-sidebar {
   padding-right: 20px;
 }
@@ -157,6 +154,7 @@ html {
   color: #f61c0d;
 }
 .page-main {
+  flex: 1;
 }
 .page_main-slider {
   flex: 2;

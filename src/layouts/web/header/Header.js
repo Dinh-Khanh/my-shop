@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Header.scss";
-import logo from "~/assets/images/DinhKhanh.png";
+import logo from "~/assets/images/logo/DinhKhanh.png";
 
 class Header extends React.Component {
   render() {
@@ -37,11 +38,13 @@ class Header extends React.Component {
             </div>
             <div className="email">
               <i className="fas fa-envelope email-icon subnav-icon"></i>
-              <a href="#">khanh.le.6739@hcmut.edu.vn</a>
+              <a href="mailto:khanh.le.6739@hcmut.edu.vn">
+                khanh.le.6739@hcmut.edu.vn
+              </a>
             </div>
             <div className="phone">
               <i className="fas fa-phone-alt phone-icon subnav-icon"></i>
-              <a href="#">0339595905</a>
+              <a href="tel:0339595905">0339595905</a>
             </div>
           </div>
         </div>

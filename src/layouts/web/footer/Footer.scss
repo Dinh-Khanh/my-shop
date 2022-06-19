@@ -1,0 +1,47 @@
+#footer {
+  height: 180px;
+  text-align: center;
+  .phone-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      width: 160px;
+      height: 160px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .phone-contact-detail {
+      .footer-phone {
+        text-decoration: none;
+        font-size: 30px;
+        color: #3670b1;
+      }
+      .phone_contact-message {
+        font-size: 20px;
+      }
+    }
+  }
+  .footer-link {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    .footer_link-member {
+      a {
+        padding: 0 10px;
+        text-decoration: none;
+        color: #3670b1;
+        position: relative;
+      }
+    }
+    span {
+      width: 1px;
+      background-color: #ccc;
+      height: 16px;
+      position: relative;
+      top: 3px;
+    }
+  }
+}
